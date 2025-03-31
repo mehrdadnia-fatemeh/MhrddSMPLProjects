@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+
+ 
+}
+.next,
+.prev {
+  width: 180px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: rgb(82, 82, 193);
+  margin-left: 20px;
+  cursor:pointer;
+}
+.cir {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(82, 82, 193);
+
+}
+.progressSample {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  width: 150px;
+  border: 2px solid rgb(82, 82, 193);
+}
+.disable{
+  cursor:not-allowed;
+  background-color:grey;
+}
